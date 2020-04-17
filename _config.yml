@@ -1,0 +1,6 @@
+# Site settings
+title: "REMI"
+description: "This public-facing data portal for curating and sharing instructional REsources for Materials Informatics (REMI)."
+
+baseurl: "/remi"
+rooturl: "http://localhost:4000"
