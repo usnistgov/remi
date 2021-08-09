@@ -44,7 +44,7 @@ body:
         - AFLOW
         - JARVIS
         - Citrine
-        - None
+        - No collection
         - Other
   - type: input
     id: collection_other
