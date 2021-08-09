@@ -46,6 +46,8 @@ body:
         - Citrine
         - No collection
         - Other
+    validations:
+      required: true        
   - type: input
     id: collection_other
     attributes:
