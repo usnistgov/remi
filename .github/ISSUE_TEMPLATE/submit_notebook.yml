@@ -49,7 +49,7 @@ body:
   - type: input
     id: collection_other
     attributes:
-      label: If other:
+      label: If other
       placeholder: 
     validations:
       required: false
