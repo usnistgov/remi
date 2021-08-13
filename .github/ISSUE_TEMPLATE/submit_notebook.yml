@@ -1,0 +1,142 @@
+name: Suggest a Notebook addition to REMI
+description: This form is used to suggest a notebook to add to the REMI curated database. 
+title: "Suggest a Notebook addition to REMI"
+body:
+  - type: input
+    id: contact_name
+    attributes:
+      label: Your Name
+      placeholder: ex. John Doe
+    validations:
+      required: false
+  - type: input
+    id: contact_email
+    attributes:
+      label: Your Email
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: input
+    id: notebook_address
+    attributes:
+      label: Website for notebook
+      description: Please post your notebook as publicly accessible on Github, Gist, etc.
+      placeholder: 
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Example
+        - Tutorial
+    validations:
+      required: true
+  - type: dropdown
+    id: collection
+    attributes:
+      label: Collection - Does this notebook belong to an institutional collection?
+      multiple: false
+      options:
+        - matgenb
+        - Matminer
+        - AFLOW
+        - JARVIS
+        - Citrine
+        - No collection
+        - Other
+    validations:
+      required: true        
+  - type: input
+    id: collection_other
+    attributes:
+      label: If other
+      placeholder: 
+    validations:
+      required: false
+  - type: input
+    id: material_systems
+    attributes:
+      label: Material systems under investigation.
+      description: Please list elements with a comman separation, e.g. Fe,Ga,Pd
+      placeholder: 
+    validations:
+      required: false
+  - type: input
+    id: symmetry_classes
+    attributes:
+      label: Symmetry classes investigated.
+      placeholder: 
+    validations:
+      required: false     
+  - type: input
+    id: material_classes
+    attributes:
+      label: Material classes
+      placeholder: 
+    validations:
+      required: false         
+  - type: input
+    id: measurement_methods
+    attributes:
+      label: Measurement methods
+      placeholder: 
+    validations:
+      required: false  
+  - type: input
+    id: properties
+    attributes:
+      label: Functional or structural properties investigated. Please list properties separated by comma.
+      placeholder: 
+    validations:
+      required: false        
+  - type: input
+    id: platform
+    attributes:
+      label: Platforms used e.g. NanoHub, MaterialsProject, JARVIS, etc.
+      placeholder: 
+    validations:
+      required: false          
+  - type: input
+    id: file_formats
+    attributes:
+      label: File formats used
+      placeholder: 
+    validations:
+      required: false        
+  - type: input
+    id: preprocessing
+    attributes:
+      label: Preprocessing methods used
+      placeholder: 
+    validations:
+      required: false  
+  - type: input
+    id: dim_reduction
+    attributes:
+      label: Dimension reduction methods used
+      placeholder: 
+    validations:
+      required: false  
+  - type: input
+    id: supervised
+    attributes:
+      label: Supervised learning methods used
+      placeholder: 
+    validations:
+      required: false  
+  - type: input
+    id: unsupervised
+    attributes:
+      label: Unsupervised learning methods used
+      placeholder: 
+    validations:
+      required: false  
+  - type: input
+    id: active_learning
+    attributes:
+      label: Active learning methods used
+      placeholder: 
+    validations:
+      required: false
