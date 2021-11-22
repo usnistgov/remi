@@ -115,6 +115,13 @@ body:
     validations:
       required: false        
   - type: input
+    id: libraries_used
+    attributes:
+      label: Software libraries used
+      placeholder: 
+    validations:
+      required: false       
+  - type: input
     id: preprocessing
     attributes:
       label: Preprocessing methods used
