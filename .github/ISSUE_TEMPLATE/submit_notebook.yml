@@ -24,15 +24,15 @@ body:
       placeholder: 
     validations:
       required: true
-    - type: textarea
-      id: description_free_text
-      attributes:
-        label: Description
-        description: Is this notebook related to a paper or talk? Please provide links and information.
-        placeholder: 
-        value:
-      validations:
-        required: false
+  - type: textarea
+    id: description_free_text
+    attributes:
+      label: Description
+      description: Is this notebook related to a paper or talk? Please provide links and information.
+      placeholder: 
+      value:
+    validations:
+      required: false
   - type: dropdown
     id: type
     attributes:
