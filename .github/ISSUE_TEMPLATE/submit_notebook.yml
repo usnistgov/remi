@@ -30,6 +30,7 @@ body:
         label: Description
         description: Is this notebook related to a paper or talk? Please provide links and information.
         placeholder: 
+        value:
       validations:
         required: false
   - type: dropdown
