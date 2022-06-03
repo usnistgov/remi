@@ -1,0 +1,14 @@
+When using this data please cite these two publications:
+Wang, Alex, et al. "Benchmarking Active Learning Strategies for Materials Optimization and Discovery." arXiv preprint arXiv:2204.05838 (2022).
+Yoo, Y. K. et al. Identification of amorphous phases in the Fe–Ni–Co ternary alloy system using continuous phase diagram material chips. Intermetallics 14, 241–247 (2006).
+
+File descriptions:
+The data is contained in a matlab formatted file.
+You can use scipy.io.loadmat to load the data in python.
+
+The data fields are described below. For each, row (or entry) N corresponds to sample N.
+'C': Composition for each sample.
+'XRD': X-ray diffraction for each sample. 
+'TTH': The corresponding two theta labels for the intensities in XRD.
+'Coer': Magnetic coercivity, measured in milliTesla [mT]
+'Kerr': Kerr rotation, measured in millirad [mrad]
