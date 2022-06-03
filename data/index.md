@@ -14,7 +14,13 @@ This is exhaustive data of material properties spanning a given composition spac
 These datasets are useful when benchmarking machine learning methods for materials discovery and optimization.
 A data description file is included in each folder.
 - [Fe-Co-Ni](https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni)
+  - Please Cite:
+    - [Wang, Alex, et al. arXiv preprint arXiv:2204.05838 (2022).](https://arxiv.org/abs/2204.05838)
+    - [Yoo, Y. K. et al. Intermetallics 14, 241–247 (2006).](https://www.sciencedirect.com/science/article/pii/S096697950500186X)
 - [Fe-Ga-Pd](https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd)
+  - Please Cite:
+    - [Kusne, A. Gilad, et al. Nature communications 11.1 (2020): 1-11.](https://www.nature.com/articles/s41467-020-19597-w)
+    - [Long, C. J., et al. Review of Scientific Instruments 78.7 (2007): 072217.](https://aip.scitation.org/doi/full/10.1063/1.2755487)
 
 #### General
 These resources include both experimental and computational data.
