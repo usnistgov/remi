@@ -9,6 +9,13 @@ description: ""
 
 Here you can find open access data resources for applying machine learning.
 
+#### Combinatorial Library Data
+This is exhaustive data of material properties spanning a given composition space.
+These datasets are useful when benchmarking machine learning methods for materials discovery and optimization.
+A data description file is included in each folder.
+- [Fe-Co-Ni](https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni)
+- [Fe-Ga-Pd](https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd)
+
 #### General
 These resources include both experimental and computational data.
 - [Materials Resource Registery](https://materials.registry.nist.gov/)
