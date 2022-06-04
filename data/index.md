@@ -15,7 +15,7 @@ These datasets are useful when benchmarking machine learning methods for materia
 A data description file is included in each folder.
 - [Fe-Co-Ni](https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni)
   - Please Cite:
-    - Benchmark study: [Wang, A., et al. arXiv preprint arXiv:2204.05838 (2022).](https://arxiv.org/abs/2204.05838) [(code)](https://github.com/alex-aa-wang/Benchmarking-Active-Learning-Starter)
+    - Benchmark study: [Wang, A., et al. arXiv preprint arXiv:2204.05838 (2022).](https://arxiv.org/abs/2204.05838)
     - [Yoo, Y. K. et al. Intermetallics 14, 241–247 (2006).](https://www.sciencedirect.com/science/article/pii/S096697950500186X)
 - [Fe-Ga-Pd](https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd)
   - Please Cite:
